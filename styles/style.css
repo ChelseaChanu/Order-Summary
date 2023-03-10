@@ -1,0 +1,121 @@
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 0;
+}
+
+p{
+    color: hsl(224, 23%, 55%);
+}
+
+.main-content{
+    border-radius: 1.25rem;
+    box-shadow: 0 1.875rem 3.75rem -0.75rem #32325D;
+    margin: 3rem auto;
+    width: 28.125rem;
+}
+
+.main-img{
+    width: 100%;
+    border-radius: 1.25rem 1.25rem 0 0;
+}
+
+.middle-content{
+    margin: auto 5rem;
+    text-align:center;
+}
+
+.middle-content h1{
+    color: hsl(223, 47%, 23%);
+    font-size: 1.6rem;
+    font-weight: bolder;
+}
+
+.plan-content{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    position: relative;
+    margin: 2rem 2.1875rem;
+    width: 23rem;
+}
+
+.plan-content img{
+    padding: 1rem 0 1rem 1.25rem;
+}
+
+.plan-content a{
+    float: right;
+    padding: 1rem 1rem 1rem 0;
+    margin: 1rem;
+}
+
+.plan-content a:hover{
+    color:hsl(186, 67%, 37%);
+}
+
+.plan{
+    position: absolute;
+    margin-left: 5.625rem;
+    top: 0;
+    bottom: 0;
+    line-height: 1;
+}
+
+.plan h3{
+    color: hsl(223, 47%, 23%);
+}
+
+.payment-btn{
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    border-width: 0;
+    box-shadow: 0 1.125rem 2.25rem -1.125rem #32325D;
+    font-weight: 700;
+    color: white;
+    padding: 1rem;
+    margin: 0 2.1875rem 1rem;
+    width: 23rem;
+}
+
+.payment-btn:hover{
+    background-color:hsl(245, 75%, 52%,.7);
+}
+
+.cancel-btn{
+    border-width: 0;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    margin: 1rem 39.5% 3rem;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media(max-width:500px){
+    body{
+        background: url(/images/pattern-background-mobile.svg);
+    }
+
+    .main-content{
+        width: 23.5rem;
+    }
+
+    .middle-content{
+        margin: auto 3.5rem;
+    }
+
+    .plan-content{
+        width: 18.375rem;
+    }
+
+    .payment-btn{
+        width: 18.375rem;
+    }
+}
