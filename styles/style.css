@@ -1,5 +1,6 @@
 body{
-    background-image: url(images/pattern-background-desktop.svg);
+    background-image: url(../images/pattern-background-desktop.svg);
+    background-size: contain;
     background-repeat: no-repeat;
     font-family: 'Hanken Grotesk', sans-serif;
     margin: 0;
@@ -10,6 +11,7 @@ p{
 }
 
 .main-content{
+    background-color: white;
     border-radius: 1.25rem;
     box-shadow: 0 1.875rem 3.75rem -0.75rem #32325D;
     margin: 3rem auto;
@@ -100,7 +102,7 @@ p{
 
 @media(max-width:500px){
     body{
-        background: url(/images/pattern-background-mobile.svg);
+        background-image: url(../images/pattern-background-mobile.svg);
     }
 
     .main-content{
